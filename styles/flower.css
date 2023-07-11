@@ -1,3 +1,11 @@
+main {
+    max-width: 1920px;
+}
+
+.tex-primary {
+    color: #E55473;
+}
+
 * {
     margin: 0px;
 }
@@ -55,6 +63,34 @@ body {
     font-weight: 700;
 }
 
+.signup-btn {
+    margin: 24px 0px 150px 335px;
+    display: inline-flex;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.btn-subcribe{
+    margin: 2px 0px 130px 512px;
+    display: inline-flex;
+    padding: 19px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
 
 /* main section style */
 
@@ -93,9 +129,7 @@ body {
 }
 
 
-.section {
-
-}
+.section {}
 
 
 
@@ -147,6 +181,7 @@ body {
 
 .delivery-info-description {
     padding-top: 20px;
+    margin: auto;
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
     font-family: Lato;
@@ -155,15 +190,121 @@ body {
     line-height: 35px;
 }
 
-.skills-container {
+.insta-photo-container {
+    margin-right: 24px 150px 0px 150px;
     display: flex;
+    /* padding: 30px 150px 0px 150px; */
+}
+
+.insta {
+
+    /* margin: auto; */
+    gap: 5px;
+    border-radius: 5px;
+    background: #FFF;
 }
 
 /* main section style */
-main {
-}
+main {}
 
 .about-info-container {
     display: flex;
     justify-content: space-around;
+}
+
+.discount {
+    display: flex;
+    padding: 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    /* margin: 150px; */
+}
+
+.banner {
+    padding: 30px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF8F3;
+
+}
+
+.banner .profile-pic {
+    width: 300px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+
+.discount-title {
+    /* =font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px; */
+    padding: 150px 170PX 0px 160px;
+
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.discount-discription {
+    /* max-width: 500px; */
+    padding: 20px 170PX 0px 150px;
+    display: flex;
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* span {
+    color: red;
+} */
+
+/* .discount-discription {
+    display: flex;
+    padding: 24px 440px 0px 170px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+} */
+
+
+#meen-bg {
+    /* background: #FFF8F3; */
+    background-image: url(../images/Rectangle_9.png)
+        /* background-repeat: no-repeat; */
+        /* background-position: bottom right; */
+}
+
+.discount-image {
+    display: flex;
+
+}
+
+.contact {
+    margin-top: 10px;
+    width: 500px;
+    height: 64px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.get-deal-title {
+    /* padding: 100px 150px 24px 150px; */
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
 }
