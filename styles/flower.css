@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+/* background color styles */
+
+.header {
+    background: #FFF8F3;
+
+    /* banner css setion */
+
+    .banner {
+        padding: 30px 150px 0px 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .banner .profile-pic {
+        width: 350px;
+
+    }
+
+    /* .banner-greting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+} */
+
+    .banner-title {
+        color: #000000;
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        max-width: 500px;
+    }
+
+    .banner-discription {
+        max-width: 500px;
+    }
+
+    .btn-primary {
+        border-radius: 5px;
+        background: #FD6E0A;
+        border: 0;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 15px 30px;
+    }
+
+    /* deal */
+   
+    /* about section style */
+
+
+    /* main section style */
+
+
+
+
+    /* about section style */
